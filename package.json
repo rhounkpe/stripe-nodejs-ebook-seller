@@ -4,7 +4,8 @@
   "description": "App to sell ebook",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "devstart": "nodemon app.js"
   },
   "author": "Rufin Hounkpe",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
+    "nodemon": "^1.17.1",
     "stripe": "^5.5.0"
   }
 }
